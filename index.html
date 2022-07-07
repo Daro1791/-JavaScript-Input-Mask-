@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Masking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+        <form action="" class="form">
+
+            <div>
+                <label for="fname">First Name</label>
+                <input id="fname" type="text" />
+            </div>
+
+            <div>
+                <label for="lname">Last Name</label>
+                <input id="lname" type="text" />
+            </div>
+
+            <div>
+                <label for="inputCard">Credit Card Number</label>
+                <input id="inputCard" type="text" placeholder="XXXX-XXXX-XXXX-XXXX" />
+            </div>
+
+            <div>
+                <label for="inputDate">Expiration Date</label>
+                <input id="inputDate" type="text" placeholder="MM/YY" />
+            </div>
+
+            <div>
+                <label for="inputCVV">Security Code</label>
+                <input id="inputCVV" placeholder="XXX" />
+            </div>
+
+        </form>
+    </div>
+
+    <div class="card">
+        <p id="pName"></p>
+        <p type="text" id="pCard"></p>
+        <p type="text" id="pDate"></p>
+        <p type="text" id="pCVV"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
